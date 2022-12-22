@@ -14,27 +14,18 @@ const Contact = () => {
           }, 3000)
           return () => clearTimeout(timer)
         }, []) 
-    
-    const sendEmail = (e) => {
-        e.preventDefault() 
 
-        emailjs
-            .sendForm(
-                'service_uzmgx08',
-                'template_z5jlfad',
-                form.current,
-                '2T0icgf2q0EQSCBEJ'
-            )
-            .then(
-                () => {
-                    alert('Message successfully sent!')
-                    window.location.reload(false)
-                },
-                () => {
-                    alert('Failed to send message; please try again.')
-                }
-            )
-    }
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_uzmgx08', 'template_a0irv1t', form.current, '2T0icgf2q0EQSCBEJ')
+          .then((result) => {
+            alert('Message successfully sent!')
+            window.location.reload(false)
+          }, (error) => {
+            alert('Failed to send message; please try again.')
+          });
+      };
 
     return(
         <>
@@ -50,20 +41,21 @@ const Contact = () => {
           <p>
             paragraph block! 
           </p>
+
           <div className='contact-form'>
             <form ref={form} onSubmit={sendEmail}>
                 <ul>
                     <li className='half'>
-                        <input type="text" name="name" placeholder="Name" required />
-                    </li>
+                        <input type="text" name="from_name" placeholder="Name" required />
+                    </li>             
                     <li className='half'>
-                        <input type="email" name="email" placeholder="Email" required />
-                    </li>
+                        <input type="text" name="reply_to" placeholder="Email" required />
+                    </li>  
                     <li>
                         <input placeholder="Subject" type="text" name="subject" required />
                     </li>
                     <li>
-                        <textarea placeholder='Message' name='massage' required />
+                        <textarea placeholder='Message' name='message' required />
                     </li>
                     <li>
                         <input type='submit' className='flat-button' value="SEND" /> 

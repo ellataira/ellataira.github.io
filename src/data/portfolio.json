@@ -23,6 +23,12 @@
             "title": "SURPRISE",
             "description": "Java",
             "url": "http://google.com" 
+        },
+        {
+            "cover": "/portfolio/1/one.png",
+            "title": "SURPRISE",
+            "description": "Java",
+            "url": "http://google.com" 
         }
     ]
 }

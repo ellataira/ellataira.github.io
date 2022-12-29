@@ -1,65 +1,13 @@
-import './index.scss'
-import LogoS from '../../../assets/images/logo-s.png'
-import { useEffect, useRef } from 'react';
-import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin';
-import gsap from 'gsap-trial'
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="475.000000pt" height="544.000000pt" viewBox="0 0 475.000000 544.000000"
+ preserveAspectRatio="xMidYMid meet">
 
-
-const Logo = () => {
-
-    const bgRef = useRef();
-    const outlineLogoRef = useRef();
-    const solidLogoRef = useRef(); 
-
-    useEffect(() => {
-        gsap.registerPlugin(DrawSVGPlugin)
-
-        gsap.timeline()
-        .to(bgRef.current, {
-            duration: 1,
-            opacity: 1
-        })
-        .from(outlineLogoRef.current, {
-            drawSVG: 0,
-            duration: 20,
-        })
-
-        gsap.fromTo(
-            solidLogoRef.current, {
-                opacity: 0,
-            },
-            {
-                opacity:1,
-                delay:4,
-                duration: 4, 
-            }
-        )
-    }, [])
-
-    return (
-        <div className="logo-container" ref={bgRef}>
-          <img
-            className="solid-logo"
-            ref={solidLogoRef}
-            src={LogoS}
-            alt="JavaScript,  Developer"
-          />
-    
-          <svg
-            width="475.000000pt" 
-            height="544.000000pt" 
-            viewBox="0 0 475.000000 544.000000"
-            version="1.0"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g
-              className="svg-container"
-              transform="translate(0.000000,544.000000) scale(0.100000,-0.100000)"
-              fill="none"
-            >
-              <path
-                ref={outlineLogoRef}
-                d="M0 4970 l0 -470 35 0 35 0 0 -48 c0 -58 12 -72 62 -72 l38 0 0 -58
+<g transform="translate(0.000000,544.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M0 4970 l0 -470 35 0 35 0 0 -48 c0 -58 12 -72 62 -72 l38 0 0 -58
 c0 -32 5 -63 12 -70 9 -9 70 -12 215 -12 l203 0 0 -1535 0 -1535 -300 0 -300
 0 0 -470 0 -470 35 0 34 0 3 -57 3 -58 48 -3 47 -3 0 -55 0 -54 35 0 35 0 0
 55 0 55 2218 2 2217 3 3 743 2 742 35 0 c33 0 35 2 35 35 0 33 -2 35 -35 35
@@ -114,11 +62,5 @@ m0 -130 l0 -35 -392 -2 -393 -3 -3 -377 -2 -378 -770 0 -770 0 0 35 0 35 753
 m-2490 185 c0 -16 -6 -25 -15 -25 -9 0 -15 9 -15 25 0 16 6 25 15 25 9 0 15
 -9 15 -25z m-1950 -870 c0 -16 -6 -25 -15 -25 -9 0 -15 9 -15 25 0 16 6 25 15
 25 9 0 15 -9 15 -25z"/>
-            </g>
-          </svg>
-        </div>
-      )
-}
-
-export default Logo 
-
+</g>
+</svg>

@@ -3,15 +3,20 @@ html{
 }
 
 :root {
-  --magenta: #f161d9;
-  --lavender: #c2a9e9; 
+  --magenta: #C242A6;
+  --berry: #8F1A76;
+  --lavender: #CF9DF5; 
+  --yellow: #F6F2BD;
+  --sand: #c2b78247;
+  --grey: rgba(34, 32, 32, 0.478);
+  --green: #375c3b;
 }
 
 body {
   margin: 0;
-  font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
-  color: #444;
-  background: #fad4f2;
+  font: 300 11px/1.4 'Rockwell';
+  color: var(--grey);
+  background: var(--sand);
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;

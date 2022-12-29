@@ -10,64 +10,64 @@
     }
 
     h1 {
-        color: #fff;
+        color: var(--magenta);
         font-size: 53px;
         margin: 0;
-        font-family: 'Coolvetica';
+        font-family: 'Rockwell';
         font-weight: 400;
 
-        &::before {
-            content: '<h1>';
-            font-family: 'La Belle Aurore';
-            color: var(--magenta);
-            font-size: 18px;
-            position: absolute;
-            margin-top: -40px;
-            left: 15px;
-            opacity: 0.6;
-        }
+        // &::before {
+        //     content: '<h1>';
+        //     font-family: 'La Belle Aurore';
+        //     color: var(--magenta);
+        //     font-size: 18px;
+        //     position: absolute;
+        //     margin-top: -40px;
+        //     left: 15px;
+        //     opacity: 0.6;
+        // }
 
-        &::after {
-            content: '<h2>';
-            font-family: 'La Belle Aurore';
-            color: var(--magenta);
-            font-size: 18px;
-            position: absolute;
-            margin-top: 18px; 
-            margin-left: 20px;
-            animation: fadeIn 1s 1.7s backwards;
-            opacity: 0.6;
-        }
+        // &::after {
+        //     content: '<h2>';
+        //     font-family: 'La Belle Aurore';
+        //     color: var(--magenta);
+        //     font-size: 18px;
+        //     position: absolute;
+        //     margin-top: 18px; 
+        //     margin-left: 20px;
+        //     animation: fadeIn 1s 1.7s backwards;
+        //     opacity: 0.6;
+        // }
 
         img {
-            width: 32px;
+            width: 45px;
             margin-left: 20px;
-            opacity: 0;
+            margin-top: auto;
             height: auto;
             animation: rotateIn 1s linear both;
             animation-delay: 1.4s;
         }
     }
 
-    hs {
-        color: #8d8d8d;
-        margin-top: 20px;
-        font-weight: 400;
-        font-size: 11px;
-        font-family: sans-serif;
-        letter-spacing: 3px;
-        animation: fadeIn 1s 1.8s backwards;
-    }
+    // hs {
+    //     color: var(--berry);
+    //     margin-top: 20px;
+    //     font-weight: 400;
+    //     font-size: 11px;
+    //     font-family: 'Rockwell';
+    //     letter-spacing: 3px;
+    //     animation: fadeIn 1s 1.8s backwards;
+    // }
 
     .flat-button{
         color: var(--magenta);
-        font-size: 13px;
+        font-size: 12px;
         font-weight: 400;
         letter-spacing: 4px;
-        font-family: sans-serif;
+        font-family: 'Rockwell';
         text-decoration: none;
         padding: 10px 18px;
-        border: 1px solid var(--magenta);
+        border: 3px solid var(--magenta);
         margin-top: 25px;
         float: left;
         animation: fadeIn 1s 1.8s backwards;
@@ -75,8 +75,8 @@
 
 
         &:hover{
-            background: var(--magenta);
-            color: #333;
+            background: #fff;
+            color: var(--green);
         }
          
     }

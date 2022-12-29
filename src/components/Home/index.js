@@ -8,8 +8,7 @@ import Loader from "react-loaders";
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = ['e', 'l', 'l', 'a']
-    const jobArray = ['c', 's', ' ', 's', 't', 'u','d','e','n','t']    
+    const nameArray = ['l', 'l', 'a']
     
     useEffect(() => {
     const timer = setTimeout(() => {
@@ -25,27 +24,26 @@ const Home = () => {
         <div className="container home-page">
             <div className="text-zone">
                 <h1> 
-                <span className={letterClass}>H</span>
-                <span className={`${letterClass} _12`}>i,</span>
+                <span className={letterClass}>h</span>
+                <span className={letterClass}>e</span>           
+                <span className={letterClass}>l</span>
+                <span className={letterClass}>l</span>
+                <span className={`${letterClass} _12`}>o,</span>
                 <br /> 
-                <span className={`${letterClass} _13`}>I</span>
+                <span className={`${letterClass} _13`}>i</span>
                 <span className={`${letterClass} _14`}>'m</span>
                 <img src={LogoTitle} alt="developer" />
                 <AnimatedLetters letterClass={letterClass}
                 strArray={nameArray}
                 idx={15} />
                 <br />
-                <AnimatedLetters letterClass={letterClass}
-                strArray={jobArray}
-                idx={22}
-                />
                 </h1>
-                <h2> computer science student</h2>
+                <h2>computer science student at northeastern university</h2>
                 <Link to="/contact" className='flat-button'> CONTACT ME</Link>
             </div>
             <Logo />
         </div>
-        <Loader type="pacman" />
+        <Loader type="semi-circle-spin" />
         </>
     );
 }

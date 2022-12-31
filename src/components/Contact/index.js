@@ -34,13 +34,13 @@ const Contact = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
+              strArray={['c', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
               idx={15}
             />
           </h1>
-          <p>
-            paragraph block! 
-          </p>
+          <p2>
+          send me an email, please! 
+          </p2>
 
           <div className='contact-form'>
             <form ref={form} onSubmit={sendEmail}>

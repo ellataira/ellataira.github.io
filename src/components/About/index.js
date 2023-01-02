@@ -22,16 +22,16 @@ const About = () => {
         return (
             <div className="images-container">
                 {
-                gallery.map((port, idx) => {
-                    return (
-                        <div className="image-box" key={idx}>
-                            <img 
+                    gallery.map((port, idx) => {
+                        return (
+                            <div className="image-box" key={idx}>
+                                <img 
                                 src={port.cover} 
-                                alt="gallery" 
-                                className="gallery-image"/>
-                        </div>       
-                    )
-                }) 
+                                alt={port.description} 
+                                className="portfolio-image"/>
+                            </div>
+                        )
+                    }) 
                 }
             </div>
         );

@@ -1,33 +1,33 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "SURPRISE",
-            "description": "Java",
+            "cover": "/portfolio/bananagrams.png",
+            "title": "Banan-AI-grams",
+            "description": "Python",
+            "url": "https://github.com/Aidan3445/Bananagrams-AI-CS4100" 
+        },
+        {
+            "cover": "/portfolio/temp.png",
+            "title": "Placeholder",
+            "description": "--",
             "url": "http://google.com" 
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "SURPRISE",
-            "description": "Java",
+            "cover": "/portfolio/temp.png",
+            "title": "Placeholder",
+            "description": "--",
             "url": "http://google.com" 
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "SURPRISE",
-            "description": "Java",
+            "cover": "/portfolio/temp.png",
+            "title": "Placeholder",
+            "description": "--",
             "url": "http://google.com" 
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "SURPRISE",
-            "description": "Java",
-            "url": "http://google.com" 
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "SURPRISE",
-            "description": "Java",
+            "cover": "/portfolio/temp.png",
+            "title": "Placeholder",
+            "description": "--",
             "url": "http://google.com" 
         }
     ]

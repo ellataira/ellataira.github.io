@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# Personal Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my first experience with CSS and ReactJS. I began this project by following the following YouTube video:
+https://youtu.be/bmpI252DmiI
 
-## Available Scripts
+From this tutorial, I made a home page, about page, contact page, portfolio page, and linked sidebar. Once I created this baseline, I customized each page to fit my needs and expand on the video's teaching. I redesigned with a new color pallette, logo, edited graphics design, and additional features. 
 
-In the project directory, you can run:
+My goal for this project was to experiment with front-end design, CSS, and React for the first time. I enjoy the creative design process and being able to create a personalized final product. 
 
-### `npm start`
+### Home Page 
+I designed my own simple logo, imported it as a svg, and animated it. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Contact Page
+For the contact page, I used the 'emailjs' library so the user can automatically send me emails through the webpage. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Portfolio Page 
+The portfolio items consist of an image and a link to the GitHub repository, so the website will redirect to the repo when the button is pressed. 
 
-### `npm test`
+### About Page 
+In addition to the original page design, I chose to include a square grid of images. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Reflection 
+Looking forward, there is still a lot to learn about React, are many features I would like to develop further. For example, I would like to change how the Portfolio Page stores its data, and allow the user to press the button to view the repository in a sub-window, not leaving the window. Further, I would like to change the image gallery on the About Page to be a scrolling image display, no longer static. Also, I would like to incorporate more graphics and animations to make the websit for visually interesting and personal. 

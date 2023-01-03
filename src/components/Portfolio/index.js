@@ -19,11 +19,11 @@ const Portfolio = () => {
 
     const renderPortfolio = (portfolio) =>{
         return (
-            <div className="images-container">
+            <div className="port-images-container">
                 {
                     portfolio.map((port, idx) => {
                         return (
-                            <div className="image-box" key={idx}>
+                            <div className="port-image-box" key={idx}>
                                 <img 
                                 src={port.cover} 
                                 alt="portfolio" 

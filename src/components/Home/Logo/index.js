@@ -5,7 +5,7 @@ import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin';
 import gsap from 'gsap-trial'
 
 
-const Logo = () => {
+const Logo = () => { 
 
     const bgRef = useRef();
     const outlineLogoRef = useRef();

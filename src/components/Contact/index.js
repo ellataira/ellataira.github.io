@@ -19,12 +19,10 @@ const Contact = () => {
         e.preventDefault();
     
         emailjs.sendForm('service_uzmgx08', 'template_a0irv1t', form.current, '2T0icgf2q0EQSCBEJ')
-          .then((result) => {
-            // alert('Message successfully sent!')
+          .then(function(response) {
             window.location.reload(false)
-       
-          }, (error) => {
-            // alert('Failed to send message; please try again.')
+          }, function(error) {
+            //
           });
       };
 

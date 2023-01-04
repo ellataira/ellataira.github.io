@@ -12,7 +12,7 @@ I designed my own simple logo, imported it as a svg, and animated it.
 
 The website hosted through GitHub pages does not include the animated image, as I have been using the trial version of DrawSVGPlugin. The animation methods are commented out and documented in the Logo files. In place of the full animations is a static image of the large logo. 
 
-![](https://github.com/ellataira.github.io/logo-animation.gif)
+![Alt Text](https://github.com/ellataira.github.io/logo-animation.gif)
 
 ### Contact Page
 For the contact page, I used the 'emailjs' library so the user can automatically send me emails through the webpage. 

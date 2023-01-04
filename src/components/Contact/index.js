@@ -21,8 +21,7 @@ const Contact = () => {
         emailjs.sendForm('service_uzmgx08', 'template_a0irv1t', form.current, '2T0icgf2q0EQSCBEJ')
           .then(function(response) {
             alert("Email sent successfully!")
-            // window.location.reload(false)
-            location.reload()
+            window.location.reload()
           }, function(error) {
             alert("Email unsuccessful; please try again.")
           });

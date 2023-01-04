@@ -10,6 +10,8 @@ My goal for this project was to experiment with front-end design, CSS, and React
 ### Home Page 
 I designed my own simple logo, imported it as a svg, and animated it. 
 
+The website hosted through GitHub pages does not include the animated image, as I have been using the trial version of DrawSVGPlugin. The animation methods are commented out and documented in the Logo files. In place of the full animations is a static image of the large logo. 
+
 ### Contact Page
 For the contact page, I used the 'emailjs' library so the user can automatically send me emails through the webpage. 
 

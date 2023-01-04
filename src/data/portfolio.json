@@ -1,22 +1,22 @@
 {
     "portfolio": [
         {
+            "cover": "/portfolio/green.png",
+            "title": "Curated Coursework from Northeastern U",
+            "description": "Python, C, Assembly",
+            "url": "https://github.com/ellataira/curated-coursework" 
+        },
+        {
             "cover": "/portfolio/bananagrams.png",
             "title": "Banan-AI-grams",
-            "description": "Python",
+            "description": "Python; made in collaboration with Aidan Weinberg",
             "url": "https://github.com/Aidan3445/Bananagrams-AI-CS4100" 
         },
         {
-            "cover": "/portfolio/temp.png",
-            "title": "Placeholder",
-            "description": "--",
-            "url": "http://google.com" 
-        },
-        {
-            "cover": "/portfolio/temp.png",
-            "title": "Placeholder",
-            "description": "--",
-            "url": "http://google.com" 
+            "cover": "/portfolio/website.png",
+            "title": "Personal Website",
+            "description": "CSS, React",
+            "url": "https://github.com/ellataira/ellataira.github.io" 
         },
         {
             "cover": "/portfolio/temp.png",

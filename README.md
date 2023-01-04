@@ -1,7 +1,9 @@
 # Personal Website
 
+## https://ellataira.github.io/
+
 This is my first experience with CSS and ReactJS. I began this project by following the following YouTube video:
-https://youtu.be/bmpI252DmiI
+https://youtu.be/bmpI252DmiI . I am hosting the website using GitHub pages. 
 
 From this tutorial, I made a home page, about page, contact page, portfolio page, and linked sidebar. Once I created this baseline, I customized each page to fit my needs and expand on the video's teaching. I redesigned with a new color pallette, logo, edited graphics design, and additional features. 
 

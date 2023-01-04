@@ -17,6 +17,8 @@ The website hosted through GitHub pages does not include the animated image, as 
 ### Contact Page
 For the contact page, I used the 'emailjs' library so the user can automatically send me emails through the webpage. 
 
+![Alt Text](https://github.com/ellataira/ellataira.github.io/blob/main/contact.gif)
+
 ### Portfolio Page 
 The portfolio items consist of an image and a link to the GitHub repository, so the website will redirect to the repo when the button is pressed. 
 

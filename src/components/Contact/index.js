@@ -20,10 +20,11 @@ const Contact = () => {
     
         emailjs.sendForm('service_uzmgx08', 'template_a0irv1t', form.current, '2T0icgf2q0EQSCBEJ')
           .then((result) => {
-            alert('Message successfully sent!')
-            // <window.location.reload()>
+            // alert('Message successfully sent!')
+            window.location.reload(false)
+       
           }, (error) => {
-            alert('Failed to send message; please try again.')
+            // alert('Failed to send message; please try again.')
           });
       };
 

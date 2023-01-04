@@ -19,11 +19,13 @@ For the contact page, I used the 'emailjs' library so the user can automatically
 
 ![Alt Text](https://github.com/ellataira/ellataira.github.io/blob/main/contact.gif)
 
-### Portfolio Page 
-The portfolio items consist of an image and a link to the GitHub repository, so the website will redirect to the repo when the button is pressed. 
-
 ### About Page 
 In addition to the original page design, I chose to include a square grid of images. 
+
+![Alt Text](https://github.com/ellataira/ellataira.github.io/blob/main/about.gif)
+
+### Portfolio Page 
+The portfolio items consist of an image and a link to the GitHub repository, so the website will redirect to the repo when the button is pressed. 
 
 # Reflection 
 Looking forward, there is still a lot to learn about React, are many features I would like to develop further. For example, I would like to change how the Portfolio Page stores its data, and allow the user to press the button to view the repository in a sub-window, not leaving the window. Further, I would like to change the image gallery on the About Page to be a scrolling image display, no longer static. Also, I would like to incorporate more graphics and animations to make the websit for visually interesting and personal. 

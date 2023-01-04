@@ -35,3 +35,21 @@
     stroke: var(--magenta);
     stroke-width: 10;
   }
+
+  /** logo classes for modified, unanimated large logo 
+      used in live website, where DrawSVGPlugin is not allowed -- 
+      only have access to trial version 'gsap-trial/DrawSVGPlugin';
+  */ 
+  .solid-inanimate-logo {
+    z-index: 0;
+    width: 400px;
+    height: 609px;
+    position: absolute;
+    top: 0;
+    right: 7%;
+    bottom: -40%;
+    left: auto;
+    margin: auto;
+    transform: rotateZ(30deg) !important;
+    z-index: 1;
+  }

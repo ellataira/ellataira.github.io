@@ -11,6 +11,25 @@ const Logo = () => {
     const outlineLogoRef = useRef();
     const solidLogoRef = useRef(); 
 
+    /** image rendered for live webiste version -- does not animate the logo image because
+     * I do not have full access to the gsap library, only the trial version 
+     */
+    return (
+      <img
+            className="solid-inanimate-logo"
+            ref={solidLogoRef}
+            src={LogoS}
+            alt="JavaScript,  Developer"
+          />
+    )
+
+
+    /** useEffect and the return() statement for animated version of large logo, which runs locally 
+     * but does not have permission to run on live website 
+     * 
+     * these methods use the trial version of DrawSVGPlugin
+     */
+    {/*
     useEffect(() => {
         gsap.registerPlugin(DrawSVGPlugin)
 
@@ -36,7 +55,7 @@ const Logo = () => {
         )
     }, [])
 
-    return (
+      return (
         <div className="logo-container" ref={bgRef}>
           <img
             className="solid-logo"
@@ -116,8 +135,12 @@ m-2490 185 c0 -16 -6 -25 -15 -25 -9 0 -15 9 -15 25 0 16 6 25 15 25 9 0 15
 25 9 0 15 -9 15 -25z"/>
             </g>
           </svg>
-        </div>
+        </div> 
       )
+
+        */}
+
+
 }
 
 export default Logo 

@@ -1,5 +1,4 @@
 import LogoTitle from "../../assets/images/logo-s.png";
-import { Link } from "react-router-dom";
 import './index.scss';
 import { useEffect, useState } from "react";
 import AnimatedLetters from "../AnimatedLetters";
@@ -39,7 +38,7 @@ const Home = () => {
                 <br />
                 </h1>
                 <h2>computer science student at northeastern university</h2>
-                <Link to="/contact" className='flat-button'> CONTACT ME</Link>
+                <a className="flat-button" href="mailto:taira.e@northeastern.edu">CONTACT ME</a>
             </div>
             <Logo />
         </div>

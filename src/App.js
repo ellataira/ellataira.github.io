@@ -11,8 +11,10 @@ function App() {
     <Routes>
       <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="/ellataira.github.io/about" element={<About />} />
-          <Route path="/ellataira.github.io/portfolio" element={<Portfolio />} />
+          <Route path="about" element={<About />} />
+          <Route path="ellataira.github.io/about" element={<About />} />
+          <Route path="portfolio" element={<Portfolio />} />
+          <Route path="ellataira.github.io/portfolio" element={<Portfolio />} />
         </Route>
     </Routes>
     </>

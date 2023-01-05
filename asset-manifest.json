@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f5eeaae.css",
-    "main.js": "/static/js/main.3a98041f.js",
-    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
-    "index.html": "/index.html",
-    "main.9f5eeaae.css.map": "/static/css/main.9f5eeaae.css.map",
-    "main.3a98041f.js.map": "/static/js/main.3a98041f.js.map",
-    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/ellataira.github.io/static/css/main.9f5eeaae.css",
+    "main.js": "/ellataira.github.io/static/js/main.6fd823d2.js",
+    "static/js/787.a2cb61a6.chunk.js": "/ellataira.github.io/static/js/787.a2cb61a6.chunk.js",
+    "index.html": "/ellataira.github.io/index.html",
+    "main.9f5eeaae.css.map": "/ellataira.github.io/static/css/main.9f5eeaae.css.map",
+    "main.6fd823d2.js.map": "/ellataira.github.io/static/js/main.6fd823d2.js.map",
+    "787.a2cb61a6.chunk.js.map": "/ellataira.github.io/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9f5eeaae.css",
-    "static/js/main.3a98041f.js"
+    "static/js/main.6fd823d2.js"
   ]
 }

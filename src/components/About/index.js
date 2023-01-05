@@ -59,7 +59,7 @@ const About = () => {
                     <p>
                         I have completed the following relevant courses: 
                         Fundamentals of Computer Science I/II, Discrete Structures, Mathematics of Data Models, Introduction to Mathematical Reasoning, Technology and Human Values (philosophy/ethics), Object Oriented Design, 
-                        Foundations of Cybersecurity, Computer Systems, Algorithms and Data, and Introduction to Artifical Intelligence. 
+                        Foundations of Cybersecurity, Computer Systems, Algorithms and Data, and Artifical Intelligence. 
                     </p>
                     <p>
                         My other interest include running, hiking, photography, and cooking. I also absolutely love dogs! 

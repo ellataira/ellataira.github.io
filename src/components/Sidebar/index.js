@@ -13,24 +13,24 @@ const SideBar = () => (
 
         <nav>
             <NavLink exact="true" activeclassname="active" to="/">
-                <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+                <FontAwesomeIcon icon={faHome} color="#353935" />
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
-                <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+                <FontAwesomeIcon icon={faUser} color="#353935" />
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="portfolio-link" to="/portfolio">
-                <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+                <FontAwesomeIcon icon={faSuitcase} color="#353935" />
             </NavLink>
         </nav>  
         <ul>
            <li>
                 <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/ellataira'>
-                    <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+                    <FontAwesomeIcon icon={faLinkedin} color="#353935" />
                 </a>
             </li> 
             <li>
                 <a target="_blank" rel='noreferrer' href='https://github.com/ellataira'>
-                    <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+                    <FontAwesomeIcon icon={faGithub} color="#353935" />
                 </a>
             </li> 
         </ul>

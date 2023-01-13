@@ -1,57 +1,14 @@
-/** styling for the animated large logo, which includes a changed opacity, 
-hence the below, edited class for the inanimate logo*/ 
-.logo-container {
-    z-index: 0;
-    width: 400px;
-    height: 609px;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    right: 7%;
-    bottom: -40%;
-    left: auto;
-    margin: auto;
-  
-    svg {
-      width: 100%;
-      height: auto;
-      bottom: 0;
-      transform: rotateZ(30deg) !important;
-    }
-  
-    .solid-logo {
-      position: absolute;
-      top: auto;
-      right: auto;
-      bottom: auto;
-      left: 0;
-      margin: auto;
-      width: 100%;
-      opacity: 0;
-      transform: rotateZ(30deg) !important;
-      z-index: 1;
-    }
-  }
-  
-  .svg-container {
-    stroke: var(--magenta);
-    stroke-width: 10;
-  }
 
-  /** logo classes for modified, unanimated large logo 
-      used in live website, where DrawSVGPlugin is not allowed -- 
-      only have access to trial version 'gsap-trial/DrawSVGPlugin';
-  */ 
   .solid-inanimate-logo {
     z-index: 0;
-    width: 400px;
-    height: 609px;
+    width: 700px;
+    height: 700px;
     position: absolute;
     top: 0;
-    right: 7%;
-    bottom: -40%;
+    right: -5%;
+    bottom: -27%;
     left: auto;
     margin: auto;
-    transform: rotateZ(30deg) !important;
+    transform: rotateZ(270deg) !important;
     z-index: 1;
   }

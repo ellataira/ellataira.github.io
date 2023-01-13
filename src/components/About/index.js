@@ -50,10 +50,10 @@ const About = () => {
                     </h1>
                     <p>
                         I am a second year undergraduate student at Northeastern University in Boston. I am currently majoring in computer 
-                        science with a concentration in artifical intelligence. 
+                        science with a concentration in artifical intelligence. I am currently seeking a co-op from July - December 2023. 
                     </p>
                     <p>
-                        I have experience writing and am proficient in Java, Python, Racket, Assembly, Git, C, and Latex. I know basic skills in Swift, React, and CSS. This website 
+                        I have experience writing and am proficient in Java, Python, Racket, Assembly, Git, C, and Latex. I am familiar with Swift, JavaScript, and CSS. This website 
                         is my first project using React and CSS.   
                     </p>
                     <p>
@@ -62,7 +62,10 @@ const About = () => {
                         Foundations of Cybersecurity, Computer Systems, Algorithms and Data, and Artifical Intelligence. 
                     </p>
                     <p>
-                        My other interest include running, hiking, photography, and cooking. I also absolutely love dogs! 
+                        This semester, I am enrolled in the courses Database Design and Information Retrieval. I will be learning SQL and Elasticsearch. 
+                    </p>
+                    <p>
+                        I am originally from Chicago, IL. My other interest include running, hiking, photography, and cooking. I also absolutely love dogs! 
                     </p>
                 </div>
 

@@ -19,16 +19,16 @@
             "url": "https://github.com/ellataira/ellataira.github.io" 
         },
         {
-            "cover": "/portfolio/temp.png",
-            "title": "Placeholder",
-            "description": "--",
-            "url": "http://google.com" 
+            "cover": "/portfolio/imgproc.png",
+            "title": "Image Processor",
+            "description": "Java; made in collaboration with Amelia Yu",
+            "url": "https://github.com/yuame-21/Image-proc" 
         },
         {
             "cover": "/portfolio/temp.png",
-            "title": "Placeholder",
-            "description": "--",
-            "url": "http://google.com" 
+            "title": "Marble Solitaire",
+            "description": "Java",
+            "url": "https://github.com/ellataira/curated-coursework/tree/main/marbles" 
         }
     ]
 }

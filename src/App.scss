@@ -4,6 +4,13 @@ $primary-color: var(--magenta);
 @import 'animate.css';
 @import '~loaders.css/src/animations/semi-circle-spin.scss';
 
+@font-face {
+  font-family: 'Space Mono';
+  src: url('./assets/fonts/SpaceMono-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .loader-active {
   display: block;
   position: absolute; 

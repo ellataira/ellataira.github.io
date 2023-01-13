@@ -14,7 +14,7 @@ html{
 
 body {
   margin: 0;
-  font: 300 11px/1.4 'Rockwell';
+  font: 300 11px/1.4 'Space Mono';
   color: var(--grey);
   background: var(--sand);
   overflow: hidden;

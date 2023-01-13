@@ -3,20 +3,17 @@ html{
 }
 
 :root {
-  --magenta: #C242A6;
-  --berry: #8F1A76;
-  --lavender: #CF9DF5; 
-  --yellow: #F6F2BD;
-  --sand: #c2b78247;
-  --grey: rgba(34, 32, 32, 0.478);
-  --green: #375c3b;
+  --magenta: #fb9be6;
+  --grey: rgba(56, 51, 51, 0.478);
+  --black: #353935;
+  --white: #FFF5EE;
 }
 
 body {
   margin: 0;
-  font: 300 11px/1.4 'Rockwell';
+  font: 300 11px/1.4 'Monaco';
   color: var(--grey);
-  background: var(--sand);
+  background: var(--white);
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;

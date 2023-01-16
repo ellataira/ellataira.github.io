@@ -58,11 +58,11 @@ const About = () => {
                     </p>
                     <p>
                         I have completed the following relevant courses: 
-                        Fundamentals of Computer Science I/II, Discrete Structures, Mathematics of Data Models, Introduction to Mathematical Reasoning, Technology and Human Values (philosophy/ethics), Object Oriented Design, 
-                        Foundations of Cybersecurity, Computer Systems, Algorithms and Data, and Artifical Intelligence. 
+                        Artificial Intelligence, Mathematics of Data Models, Technology and Human Values,
+Object Oriented Design, Foundations of Cybersecurity, Computer Systems, Algorithms and Data
                     </p>
                     <p>
-                        This semester, I am enrolled in the courses Database Design and Information Retrieval. I will be learning SQL and Elasticsearch. 
+                        This semester, I am enrolled in the courses Database Design and Information Retrieval. I will be learning SQL and Elasticsearch. I am also working as a teaching assistant for Mathematics of Data Models. 
                     </p>
                     <p>
                         I am originally from Chicago, IL. My other interest include running, hiking, photography, and cooking. I also absolutely love dogs! 

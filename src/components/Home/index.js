@@ -38,7 +38,7 @@ const Home = () => {
                 <br />
                 </h1>
                 <h2>computer science student at northeastern university</h2>
-                <a className="flat-button" href="mailto:taira.e@northeastern.edu">CONTACT ME</a>
+                <a className="flat-button" href="mailto:ejtaira177@gmail.com">CONTACT ME</a>
             </div>
             <Logo />
         </div>

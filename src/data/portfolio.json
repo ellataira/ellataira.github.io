@@ -9,7 +9,7 @@
         {
             "cover": "/portfolio/bananagrams.png",
             "title": "Banan-AI-grams",
-            "description": "Python; made in collaboration with Aidan Weinberg",
+            "description": "Python",
             "url": "https://github.com/Aidan3445/Bananagrams-AI-CS4100" 
         },
         {
@@ -21,7 +21,7 @@
         {
             "cover": "/portfolio/imgproc.png",
             "title": "Image Processor",
-            "description": "Java; made in collaboration with Amelia Yu",
+            "description": "Java",
             "url": "https://github.com/yuame-21/Image-proc" 
         },
         {

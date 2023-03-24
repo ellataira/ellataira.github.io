@@ -1,43 +1,43 @@
 {
     "portfolio": [
         {
-            "cover": "public/portfolio/green.png",
+            "cover": "/portfolio/green.png",
             "title": "Curated Coursework from Northeastern U",
             "description": "Python, C, Assembly",
             "url": "https://github.com/ellataira/curated-coursework" 
         },
         {
-            "cover": "public/portfolio/green.png",
+            "cover": "/portfolio/bananagrams.png",
             "title": "Banan-AI-grams",
             "description": "Python",
             "url": "https://github.com/Aidan3445/Bananagrams-AI-CS4100" 
         },
         {
-            "cover": "public/portfolio/website.png",
+            "cover": "/portfolio/website.png",
             "title": "Personal Website",
             "description": "CSS, React",
             "url": "https://github.com/ellataira/ellataira.github.io" 
         },
         {
-            "cover": "public/portfolio/imgproc.png",
+            "cover": "/portfolio/imgproc.png",
             "title": "Image Processor",
             "description": "Java",
             "url": "https://github.com/yuame-21/Image-proc" 
         },
         {
-            "cover": "public/portfolio/temp.png",
+            "cover": "/portfolio/temp.png",
             "title": "Marble Solitaire",
             "description": "Java",
             "url": "https://github.com/ellataira/curated-coursework/tree/main/marbles" 
         }, 
         {
-            "cover": "public/portfolio/selenium.png",
+            "cover": "/portfolio/selenium.png",
             "title": "PaddleBot",
             "description": "Python (Selenium)",
             "url": "https://github.com/ellataira/PaddleBot" 
         },
         {
-            "cover": "public/portfolio/es.png",
+            "cover": "/portfolio/es.png",
             "title": "Search Engine (Information Retrieval)",
             "description": "Python (Elasticsearch)",
             "url": "https://github.com/ellataira/information-retrieval" 

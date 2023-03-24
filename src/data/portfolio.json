@@ -29,6 +29,18 @@
             "title": "Marble Solitaire",
             "description": "Java",
             "url": "https://github.com/ellataira/curated-coursework/tree/main/marbles" 
+        }, 
+        {
+            "cover": "/portfolio/selenium.png",
+            "title": "PaddleBot",
+            "description": "Python (Selenium)",
+            "url": "https://github.com/ellataira/PaddleBot" 
+        },
+        {
+            "cover": "/portfolio/es.png",
+            "title": "Search Engine (Information Retrieval)",
+            "description": "Python (Elasticsearch)",
+            "url": "https://github.com/ellataira/information-retrieval" 
         }
     ]
 }

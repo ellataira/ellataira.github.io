@@ -49,8 +49,8 @@ const About = () => {
                         />
                     </h1>
                     <p>
-                        I am a second year undergraduate student at Northeastern University in Boston. I am currently majoring in computer 
-                        science with a concentration in artifical intelligence. I am currently seeking a co-op from July - December 2023. 
+                        I am a third year undergraduate student at Northeastern University in Boston. I am currently majoring in computer 
+                        science with a concentration in artifical intelligence. I am currently seeking a co-op from July - December 2024. 
                     </p>
                     <p>
                         I have experience writing and am proficient in Java, Python, Racket, Assembly, Git, C, and Latex. I am familiar with Swift, JavaScript, and CSS. This website 
@@ -62,10 +62,12 @@ const About = () => {
 Object Oriented Design, Foundations of Cybersecurity, Computer Systems, Algorithms and Data
                     </p>
                     <p>
-                        This semester, I am enrolled in the courses Database Design and Information Retrieval. I will be learning SQL and Elasticsearch. I am also working as a teaching assistant for Mathematics of Data Models. 
+                        I have completed my first co-op experience at Check Point Software Technologies Inc. as a Security Engineer Intern. In this role, I have collaborated in customer meetings to identify cybersecurity challenges and execute customized solutions, 
+                        demonstrated and implemented Check Point’s cloud, network, and endpoint security solutions, emphasizing their role in safeguarding operations and data against threats, and 
+                        leveraged self-directed company expertise to enhance team projects, emphasizing security solutions for operational resilience against evolving threats.
                     </p>
                     <p>
-                        I am originally from Chicago, IL. My other interest include running, hiking, photography, and cooking. I also absolutely love dogs! 
+                        I am originally from Chicago, IL. My other interest include running, hiking, crossword puzzles, and cooking. I also absolutely love dogs! 
                     </p>
                 </div>
 

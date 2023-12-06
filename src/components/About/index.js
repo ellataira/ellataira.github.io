@@ -48,27 +48,35 @@ const About = () => {
                         idx={15}
                         />
                     </h1>
-                    <p>
+                    <sp>
                         I am a third year undergraduate student at Northeastern University in Boston. I am currently majoring in computer 
                         science with a concentration in artifical intelligence. I am currently seeking a co-op from July - December 2024. 
-                    </p>
+                    </sp>
                     <p>
+                    </p>
+                    <sp>
                         I have experience writing and am proficient in Java, Python, Racket, Assembly, Git, C, and Latex. I am familiar with Swift, JavaScript, and CSS. This website 
                         is my first project using React and CSS.   
-                    </p>
+                    </sp>
                     <p>
+                    </p>
+                    <sp>
                         I have completed the following relevant courses: 
                         Artificial Intelligence, Mathematics of Data Models, Technology and Human Values,
 Object Oriented Design, Foundations of Cybersecurity, Computer Systems, Algorithms and Data
-                    </p>
+                    </sp>
                     <p>
+                    </p>
+                    <sp>
                         I have completed my first co-op experience at Check Point Software Technologies Inc. as a Security Engineer Intern. In this role, I have collaborated in customer meetings to identify cybersecurity challenges and execute customized solutions, 
                         demonstrated and implemented Check Point’s cloud, network, and endpoint security solutions, emphasizing their role in safeguarding operations and data against threats, and 
                         leveraged self-directed company expertise to enhance team projects, emphasizing security solutions for operational resilience against evolving threats.
-                    </p>
+                    </sp>
                     <p>
-                        I am originally from Chicago, IL. My other interest include running, hiking, crossword puzzles, and cooking. I also absolutely love dogs! 
                     </p>
+                    <sp>
+                        I am originally from Chicago, IL. My other interest include running, hiking, crossword puzzles, and cooking. I also absolutely love dogs! 
+                    </sp>
                 </div>
 
                 <div className='stage-cube-cont'>
